@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resources Table</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="bg-light">
+
+<div class="container my-5">
+  <h1 class="mb-4">Resources</h1>
+  <table class="table table-striped table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th>Document</th>
+        <th>Description</th>
+        <th>URL</th>
+      </tr>
+    </thead>
+    <tbody id="resources-table">
+      <!-- Rows will be injected here -->
+    </tbody>
+  </table>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $.getJSON("resources.json", function(data) {
+      let rows = "";
+      data.forEach(function(item) {
+        rows += `
+          <tr>
+            <td>${item.document}</td>
+            <td>${item.description}</td>
+            <td><a href="${item.url}" target="_blank">Visit</a></td>
+          </tr>
+        `;
+      });
+      $("#resources-table").html(rows);
+    });
+  });
+</script>
+
+</body>
+</html>

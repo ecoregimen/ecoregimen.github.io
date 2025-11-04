@@ -1,0 +1,17 @@
+[
+  {
+    "document": "Bootstrap Docs",
+    "description": "Official Bootstrap documentation",
+    "url": "https://getbootstrap.com"
+  },
+  {
+    "document": "jQuery Docs",
+    "description": "Official jQuery documentation",
+    "url": "https://api.jquery.com"
+  },
+  {
+    "document": "YouTube",
+    "description": "Video hosting platform",
+    "url": "https://youtube.com"
+  }
+]
