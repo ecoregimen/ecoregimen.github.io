@@ -1,17 +1,49 @@
 [
   {
-    "document": "Bootstrap Docs",
-    "description": "Official Bootstrap documentation",
-    "url": "https://getbootstrap.com"
+	"id": "1",
+    "document": "Formacion",
+    "description": "Centro de Competencias digitales MAPA",
+    "url": "https://centrocompetencias.mapa.es/",
+	"fecha":"04/01/2025"
   },
   {
-    "document": "jQuery Docs",
-    "description": "Official jQuery documentation",
-    "url": "https://api.jquery.com"
+	"id":"2",
+    "document": "Distribuidor de maquinaria",
+    "description": "Sola Group",
+    "url": "https://solagrupo.com/es/",
+	"fecha":"04/01/2025"
   },
   {
-    "document": "YouTube",
-    "description": "Video hosting platform",
-    "url": "https://youtube.com"
+	"id":"3",
+    "document": "Diario Oficial de Castilla La Mancha",
+    "description": "Forma de pagos directos financiadas con cargo al Fondo Europeo Agrícola (Feaga) 31/01/2025",
+    "url": "https://docm.jccm.es/docm/descargarArchivo.do?ruta=2025/01/31/pdf/2025_711.pdf&tipo=rutaDocm",
+	"fecha":"04/01/2025"
+  },
+   {
+	"id":"4",
+    "document": "Consulta",
+    "description": "Ingenieros Agronomos de Albacete",
+    "url": "https://www.agronomosalbacete.org/solicitud-unificada-de-la-pac-2025/",
+	"fecha":"04/01/2025"
+  },
+    {
+	"id":"4",
+    "document": "Castilla La Mancha PAC Hub",
+    "description": "Aplicaciones de Agricultura PAC",
+    "url": "https://apliagri.castillalamancha.es/pac",
+	"fecha":"04/01/2025"
+  },
+     {
+	"id":"4",
+    "document": "Castilla La Mancha Applicacion de Captura",
+    "description": "SGA",
+    "url": "https://sga.castillalamancha.es/sgacap/inicio/home.action",
+	"fecha":"04/01/2025"
   }
+  
+  
+  
+  
+  
 ]
